@@ -1,0 +1,185 @@
+a {
+  color: #6effbf;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #6effbf;
+}
+
+html, body {
+  /* position: relative; */
+  background-color: #1d1919;
+  color: #fff;
+}
+h2 {
+  color: #6effbf;
+}
+
+h3 {
+  font-weight: lighter;
+  color: #6effbf;
+}
+
+hr {
+  border-color: #6effbf;
+  width: 50%;
+}
+
+section {
+  padding: 4% 15%;
+}
+
+/* NAVBAR */
+
+nav {
+  background-color: #000;
+  opacity: 0.9;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #6effbf !important;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+/* ABOUT */
+
+#about p {
+  padding: 5% 3%;
+  position: relative;
+}
+
+.about-img {
+  border-radius: 100%;
+}
+
+/* WORK */
+
+#work .container {
+  border-left: solid 1px #fff;
+}
+
+.year {
+  color: #6effbf;
+  font-weight: lighter;
+  margin-left: 15px;
+  position: relative;
+  width: 100px;
+  left: -80px;
+  top: 47px;
+}
+
+/* SKILLS */
+
+.skill-icon {
+  padding: 10px 10px;
+}
+
+.skill-img {
+  padding: 10px 10px;
+  width: 70px;
+}
+
+.skill-box {
+  padding: 7% 0;
+}
+
+.progress {
+  width: 55px;
+  height:5px;
+  margin-left: 7px;
+  background-color: #738598;
+}
+
+.progress-bar {
+  background-color: #6effbf;
+}
+
+.skill-progress {
+  display: inline-block;
+}
+
+.custom-progress {
+  margin-left: 10px;
+}
+
+.skill-line {
+  margin-left: 0;
+  width: 100%;
+}
+
+/* EDUCATION */
+
+.cert-button {
+  display: inline-block;
+  border: 1px solid #6effbf;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 7px 15px;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+.cert-button:hover {
+  background-color: #6effbf;
+  color: #1d1919;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+
+.edu-item {
+  margin: 30px 0;
+}
+
+.edu-section {
+  margin: 60px 0;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #1d1919;
+  bottom: 0;
+  height: 90px;
+  position: relative;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: grey;
+}
+
+.social-icon {
+  padding: 30px 15px;
+  color: #ffffff;
+}
+
+.social-icon:hover {
+  color: #6effbf;
+  transition-duration: 0.2s;
+}
+
+/* MEDIA */
+
+@media (max-width: 500px) {
+  .cert-button {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 730px) {
+  .skill-showroom {
+    text-align: center;
+  }
+}
