@@ -9,7 +9,7 @@ a:hover {
 
 html, body {
   /* position: relative; */
-  background-color: #111919;
+  background-color: #111111;
   color: #fff;
 }
 h2 {
@@ -129,7 +129,7 @@ nav {
 
 .cert-button:hover {
   background-color: #6effbf;
-  color: #111919;
+  color: #111111;
   font-weight: bold;
   transition-duration: 0.4s;
 }
@@ -145,7 +145,7 @@ nav {
 /* FOOTER */
 
 footer {
-  background-color: #111919;
+  background-color: #111111;
   bottom: 0;
   height: 90px;
   position: relative;
