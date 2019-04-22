@@ -8,7 +8,6 @@ a:hover {
 }
 
 html, body {
-  /* position: relative; */
   background-color: #111111;
   color: #fff;
 }
@@ -47,6 +46,36 @@ nav {
 
 .nav-item {
   padding: 0 20px;
+}
+
+/* INDEX */
+
+#index-section {
+  padding: 0;
+}
+
+#index-section .container {
+  margin-top: 0;
+  text-align: center;
+}
+
+#index-section h2 {
+  font-weight: lighter;
+}
+
+#index-section a {
+  color: #6effbf;
+  opacity: 0.1;
+}
+
+#index-section a:hover {
+  opacity: 1;
+  transition-duration: 2s;
+}
+
+#index-section img {
+  width: 45%;
+  padding-bottom: 50px;
 }
 
 /* ABOUT */
@@ -181,5 +210,17 @@ footer {
 @media (max-width: 730px) {
   .skill-showroom {
     text-align: center;
+  }
+}
+
+@media (max-width: 990px) {
+  #index-section {
+    padding-top: 15%;
+  }
+}
+
+@media (max-width: 550px) {
+  #index-section h2 {
+    font-size: 1.4rem;
   }
 }
