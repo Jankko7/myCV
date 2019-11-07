@@ -127,7 +127,7 @@ nav {
 .progress {
   width: 55px;
   height:5px;
-  margin-left: 0 auto;
+  margin: 0 auto;
   background-color: #738598;
 }
 
