@@ -138,10 +138,10 @@ nav {
 .skill-progress {
   display: inline-block;
 }
-
+/* 
 .custom-progress {
   margin-left: 10px;
-}
+} */
 
 .skill-line {
   margin-left: 0;
